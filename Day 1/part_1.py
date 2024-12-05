@@ -5,7 +5,7 @@ col2 = []
 
 # Extract the data
 for line in user_file:
-    number = line.split();
+    number = line.split()
     col1.append(number[0])
     col2.append(number[1])
 user_file.close()
