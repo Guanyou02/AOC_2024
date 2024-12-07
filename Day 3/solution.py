@@ -1,5 +1,4 @@
 import re
-from faulthandler import is_enabled
 
 with open('input.txt', 'r') as file: # Another way to open file
     data = file.read()
